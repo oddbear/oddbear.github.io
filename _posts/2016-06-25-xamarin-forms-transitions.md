@@ -43,10 +43,8 @@ namespace ProjectName.Droid
 ```
 
 ### Navigation on Android 5+:
-<div class='warning'>
-This post is for Xamarin 2.3, and the code will need small changes to work on later versions.<br />
-<i>(It uses reflection on code already changed in latest branch)</i>
-</div>
+
+{% include warning.html message="This post is for Xamarin 2.3, and the code will need small changes to work on later versions." submessage="(It uses reflection on code already changed in latest branch)" %}
 
 I tried several ways of achieving this, however the only solution I found without too many bugs in it, was to get Xamarin.Forms to skip some code, and do this manually.
 
