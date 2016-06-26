@@ -5,9 +5,9 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kernel32.net" # the base hostname & protocol for your site
 enforce_ssl: kernel32.net
-twitter_username: oddbeard
-github_username:  oddbear
-#linkedin:         oddbjornbakke
+twitter_username:  oddbeard
+github_username:   oddbear
+linkedin_username: oddbjornbakke
 
 # Build settings
 markdown: kramdown
