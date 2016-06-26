@@ -10,9 +10,9 @@ Hello World...
 
 My name is Oddbjørn U. Bakke, and I am a .Net developer from Norway.
 
-I am nerd passionate about technology, and love (almost) anything I can my hands on.
+I am nerd passionate about technology, and love (almost) anything I can get my hands on.
 
-A good day is a day that I learned something new.
+A good day for me, is a day that I learned something new.
 If someone says something is impossible, I’d like to take that challenge for the test.
 
 This site uses Github pages, and you can find the Github repository for this page at
