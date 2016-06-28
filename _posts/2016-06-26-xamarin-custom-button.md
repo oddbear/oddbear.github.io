@@ -87,13 +87,11 @@ And the button i Xaml like this:
 
 ```xml
 <local:CustomButton
-    Text=""
     HeightRequest="80"
     WidthRequest="80"
-    VerticalOptions="FillAndExpand"
-    HorizontalOptions="FillAndExpand">
+    HorizontalOptions="Center">
     <local:CustomButton.Effects>
-        <local:Page3Effect />
+        <local:ButtonEffect />
     </local:CustomButton.Effects>
 </local:CustomButton>
 ```
