@@ -41,3 +41,4 @@ Object.ReferenceEquals(internString, "AB").Dump(); //True
 String are [immutable](https://msdn.microsoft.com/en-us/library/ms228362.aspx), but by using the <code>unsafe</code> keyword, you can actually manually change the content of it.
 Be aware, as this opens for some attacks from libraries (or a colleague that want to mess with you) when it comes to things like reflection and connection strings.
 
+{% include disqus.html %}

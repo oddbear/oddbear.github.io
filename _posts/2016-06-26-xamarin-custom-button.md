@@ -212,3 +212,5 @@ However, XF will then skip some code, so you will need to copy your click event 
 There is also a Xamarin fix for default colors that you can run manually.
 
 After this, just call the base method.
+
+{% include disqus.html %}

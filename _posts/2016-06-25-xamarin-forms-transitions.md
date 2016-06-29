@@ -194,3 +194,5 @@ ViewPropertyAnimator animatior = child.Animate().TranslationX(0).SetDuration(200
 ```
 
 Good luck. :)
+
+{% include disqus.html %}
