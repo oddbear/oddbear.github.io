@@ -3,6 +3,8 @@ layout: post
 title: Xamarin custom page transitions
 tags: [Xamarin, Xamarin.Forms, iOS, Android, Mobile, UI, Transitions, Animations]
 ---
+Code on github can be found [here](https://github.com/oddbear/XamarinNavigationTransitions).
+
 ### Transitions
 You might have seen some applications with nice and smooth animations/transitions between pages, 
 and in Xamarin.Forms you might want to change the page transitions to be something similar.
