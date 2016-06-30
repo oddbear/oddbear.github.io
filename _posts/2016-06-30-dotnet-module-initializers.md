@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Using ModuleInit
-tags:
-- security
-- .net
+tags: [dotnet, security, fody]
 ---
 
 Code at [github](https://github.com/oddbear/ModuleInitTest).
