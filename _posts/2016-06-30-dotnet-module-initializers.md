@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using ModuleInit
+title: Using Module Initializers
 tags: [dotnet, security, fody]
 ---
 
