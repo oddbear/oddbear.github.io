@@ -25,3 +25,5 @@ After this it should be able to run, but I got some permission errors:
 To fix this, you can open the docker settings, go to "shared drives", then check C and enter your credentials.
 
 After this, my "hello world" jekyll service was running in a linux VM (MobyLinuxVM) on Windows 10.
+
+{% include disqus.html %}
