@@ -24,7 +24,7 @@ The shortcuts goes to:
 
 ## Better browser switching
 
-By using this nice tool called [BrowserChooser](https://browserchooser2.com/), I can now choose my browser with the right profile directly when open link.
+By using this nice tool called [BrowserChooser](https://browserchooser2.com/), I can now choose my browser with the right profile directly when open link.<br />
 <img src="/images/2018-06-01-switcher.png" alt="Welcomescreen of browserchooser2" />
 
 That is all nice, but it also supports automaticly choosing a profile based on patterns in the link, ex. customer domain etc.
