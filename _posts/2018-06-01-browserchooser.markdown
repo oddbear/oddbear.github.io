@@ -85,13 +85,13 @@ This means:
 - Pattern "\*test.com\*/[#]user/*" will hit "http://test.com/#user/function"
 
 Example rules:
-- "\*test.com/\*"
-- "company.sharepoint.com/\*"
-- "company.visualstudio.com/\*"
-- "confluence.company.com/\*"
-- "localhost:19080/Explorer/"
-- "jira.company.com/\*"
-- "portal.azure.com/[\#]@company.com/\*"
+- <span>"\*test.com/\*"</span>
+- <span>"company.sharepoint.com/\*"</span>
+- <span>"company.visualstudio.com/\*"</span>
+- <span>"confluence.company.com/\*"</span>
+- <span>"localhost:19080/Explorer/"</span>
+- <span>"jira.company.com/\*"</span>
+- <span>"portal.azure.com/[\#]@company.com/\*"</span>
 
 So...
 
