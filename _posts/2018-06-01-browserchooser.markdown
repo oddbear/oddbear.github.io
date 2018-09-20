@@ -64,6 +64,35 @@ To add URL patterns go to 'Auto URLs'. With wildcards this can be very powerfull
 
 Now when you click on a configured link, it should open chrome with the right profile automaticly.
 
+## AutoURL Rules
+
+BrowserChooser is a VB.Net application, and uses the [string LIKE operator](https://docs.microsoft.com/en-us/dotnet/visual-basic/language-reference/operators/like-operator), on version 2.0.4.38373.
+It also removes "https://", "http://" and "www." from the pattern.
+
+Special characters in pattern:
+- ?	Any single character
+- \*	Zero or more characters
+- \#	Any single digit (0–9)
+- [charlist]	Any single character in charlist
+- [!charlist]	Any single character not in charlist
+
+This means:
+- There is no need to use http, https, or www in the pattern.
+- "\*." will require start of something else than "www.".
+- Pattern "\*.test.com\*" will hit "http://test.test.com/" but not "http://www.test.com/"
+- Pattern "\*test.com\*" will hit both.
+- Pattern "\*test.com\*/#user/*" will not hit  "http://test.com/#user/function"
+- Pattern "\*test.com\*/[#]user/*" will hit "http://test.com/#user/function"
+
+Example rules:
+- "\*test.com/\*"
+- "company.sharepoint.com/\*"
+- "company.visualstudio.com/\*"
+- "confluence.company.com/\*"
+- "localhost:19080/Explorer/"
+- "jira.company.com/\*"
+- "portal.azure.com/[\#]@company.com/\*"
+
 So...
 
 Time Saved...Is Time Earned...<br />
