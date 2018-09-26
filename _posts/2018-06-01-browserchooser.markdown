@@ -83,6 +83,7 @@ This means:
 - Pattern "\*test.com\*" will hit both.
 - Pattern "\*test.com\*/#user/*" will not hit  "http://test.com/#user/function"
 - Pattern "\*test.com\*/[#]user/*" will hit "http://test.com/#user/function"
+- Pattern "\*" will hit everything, and must therefor be the last pattern. You can use this for selecting a default browser.
 
 Example rules:
 - <span>"\*test.com/\*"</span>
